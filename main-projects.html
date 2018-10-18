@@ -84,7 +84,7 @@
 					</div>
 				</div>
 
-				<img src="assets/images/fabflix-image1.png" class="image-sm">
+				<img src="assets/images/fabflix-image1.PNG" class="image-sm">
 
 					<div class="description">
 						<h5><strong>Overview</strong></h5>
@@ -124,12 +124,16 @@
 						</ul>	
 
 						<strong> What did I do? </strong><br/>
-
-						<strong>What did I learn</strong><br/>
-
+						I created the basic structure and functionality of getting 	
+						I created SQL queries to find the top 20 movies in the database according to its ranking. I took form values entered from the user to search for movies based on either 4 criteria: title, year, directors, and stars. From these values I returned as a JSON object to the frontend information such as: title, year, directors, and stars. I then parsed the JSON object on the front-end and displayed the following information in a table. I found that performance for searching for the data was quite slow, therefore I attempted to speedup performances by adding indexes on attributes that were searched quite often in the database. That sped up our performance quite a bit. Moreover, I developed mySQL procedures for adding movies the database considering whether the movie is a duplicate or not, and taking appropiate actions. I called the procedures on our backend Java Servlets. Moreover, I developed an android application to perform similar searching functionality as our website. I then proceeded to secure our website by encrypting our passwords using a java program developed and open sourced on github. I realized that our web application were vulnerable to SQL injections since we used the users search values in our queries. I proceeded to fix this issue by using preparedStatements to execute our queries instead of regular statements.
+						<br/>
+						<strong>What did I learn?</strong><br/>
+						This project was a real eye opener for me in terms of how the web worked, and just a new of developing in general. Before, this project I was used to lower level languages such as C and C++ and implementing things from scratch for educational purposes. Diving into this project I learned to be able to learn fast, read documentation fast, and to be able to figure our and use a variety of tools that have already been implemented and to integrate them into my application in order to save time. I learned how the web cycle worked from the client (browser) making a request to server (tomcat) and how Java Servlets served these requests, often by retrieving data from our database (mySQL) and to send a respone back, which the frontend would handle. I learned about seperation of concern and just simply learned a plethora of tools and technologies!
+						<br/>
 						<strong> What was my favorite part?</strong><br/>
-
-						
+						My favorite part was just feeling overwhelmed but slowly taking each step and seeing our web application grow into something that was real and useable!
+						<hr>
+						<br/>
 
 					</div>
 				</div>
@@ -137,14 +141,53 @@
 			<div class="col-md-4">
 				<div class="project">
 					<!-- Project Header -->
-					<div class="project-name" style="font-size: 30px">
+					<div class="project-name">
 						Arithmetic Learning Center
 					</div>
 					
-					<img src="assets/images/math-website.png" class="image-sm">
+					<img src="assets/images/math-website.PNG" class="image-sm">
 
 					<div class="description">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+						<h5><strong>Overview</strong></h5>
+						A web application for people of all ages to select and practice arithmetic problems that tailor to their needs and to be able to keep track of their progress.
+						<br/>
+
+						<h5><strong>Stack</strong></h5>
+						<strong>Frontend</strong>
+						<p>
+							HTML, CSS, JavaScript, jQuery, BootStrap
+						</p>
+						<strong>Backend</strong>
+						<p>
+							Tomcat server, Java, mySQL, Maven
+						</p>
+
+						<h5>Description</h5>
+
+						<strong>Goals of this project:</strong> To create a useful application about something I am passionate about - math. To practice and gain more experience in web technologies/languages. <br/>
+
+						<strong>Functionality of Website</strong><br/>
+						<ul>
+							<li>Able to Login and view progress
+							</li>
+							<li>Practice either, math, subtraction, division, and multiplication.</li>
+
+							<li>For each type of arithmetic, able to select the number of problems and type of problems they want to practice e.g. single digit addition or multiple digit addition. </li>
+
+							<li>After finishing assignments/quizzes to be able to see answers they got right/wrong.</li>
+						</ul>	
+						<br/>
+
+						<strong> What did I do? </strong><br/>
+						I worked on this project solo. I firstly had to determine which techologies to use and to create the overall architecture/structure of my website. I had to pass along form information entered by the user to other html/js pages and to be able to parse information and make decisions about the information given. I had develop the user interface to make the website more enjoyable and easy to navigate, especially since this website was designed with youth in mind.
+						<br/>
+
+						<strong>What did I learn?</strong><br/>
+						This project helped me mainly to gain profiencies in front end technologies, namely html and JavaScript. I learned alot about being able to send information from one html page to another and to develop algorithms to render "dynamic" and random problems based on the user input.
+						<br/>
+						<strong> What was my favorite part?</strong><br/>
+						I really enjoyed this project because it dealt with math, which is my favorite subject, so it was just really cool to create something for kids to be able to use someday.
+						<hr>
 					</div>
 				</div>
 			</div>
@@ -156,10 +199,47 @@
 						Whale DB
 					</div>
 					
-					<img src="assets/images/whaledb.png" class="image-sm">
+					<img src="assets/images/whaledb.PNG" class="image-sm">
 
 					<div class="description">
-						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+						<h5><strong>Overview</strong></h5>
+						A web application to view information in a whale database.
+						<br/>
+
+						<h5><strong>Stack</strong></h5>
+						<strong>Frontend</strong>
+						<p>
+							HTML, CSS
+						</p>
+						<strong>Backend</strong>
+						<p>
+							Xampp(Server), PHP, mariaDB
+						</p>
+
+						<h5>Description</h5>
+
+						<strong>Goals of this project:</strong> To gain proficiency, and learn the basic semantics of creating a dynamic web application using PHP and mariaDB on the backend.<br/>
+
+						<strong>Functionality of Website</strong><br/>
+						<ul>
+							<li>To be able to search species of whales.
+							</li>
+							<li>To be able to search whale locations</li>
+
+							<li>To be able to search the whale locations of certain whale species</li>
+
+						</ul>	
+
+						<strong> What did I do? </strong><br/>
+						I connected my PHP server page to my backend mariaDB database, and created queries to search for information about whales and rendered such information on my PHP page.
+						<br/>
+						<strong>What did I learn?</strong><br/>
+						I learned the basics of creating web applications using PHP and gained proficiency in the PHP language and how to use/integrate certain tools inside of PHP.
+						<br/>
+						<strong> What was my favorite part?</strong><br/>
+						I really enjoyed learning and using PHP as a language, because of its simplicity and powerfulness.
+						<br/>
+						<br/>
 					</div>
 			</div>
 		</div>
