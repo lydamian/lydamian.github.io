@@ -126,7 +126,7 @@
 						</ul>	
 
 						<strong> What did I do? </strong><br/>
-						I created the basic structure and functionality of getting 	
+						I created the basic structure and functionality of getting data from the database and displaying those results in a readable format to users.
 						I created SQL queries to find the top 20 movies in the database according to its ranking. I took form values entered from the user to search for movies based on either 4 criteria: title, year, directors, and stars. From these values I returned as a JSON object to the frontend information such as: title, year, directors, and stars. I then parsed the JSON object on the front-end and displayed the following information in a table. I found that performance for searching for the data was quite slow, therefore I attempted to speedup performances by adding indexes on attributes that were searched quite often in the database. That sped up our performance quite a bit. Moreover, I developed mySQL procedures for adding movies the database considering whether the movie is a duplicate or not, and taking appropiate actions. I called the procedures on our backend Java Servlets. Moreover, I developed an android application to perform similar searching functionality as our website. I then proceeded to secure our website by encrypting our passwords using a java program developed and open sourced on github. I realized that our web application were vulnerable to SQL injections since we used the users search values in our queries. I proceeded to fix this issue by using preparedStatements to execute our queries instead of regular statements.
 						<br/>
 						<strong>What did I learn?</strong><br/>
