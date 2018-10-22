@@ -1,0 +1,57 @@
+
+body  {
+    background-image: url("images/leaf.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.body-cover{
+	background:rgba(75, 75, 75, 0.2);
+	text-align: center;
+	
+}
+
+.dancing-font{
+	font-family: 'Dancing Script', cursive;
+}
+
+.shadow-font{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 50px;
+}
+
+h1#heading{
+	font-size: 60px;
+	color:white;
+	font-family: 'Dancing Script', cursive;
+}
+
+h3{
+
+}
+
+p{
+
+}
+
+#main-content{
+	color:white;
+	opacity: 1;
+		width: 70%;
+	margin:0 auto;
+}
+
+
+
+/* carousel */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+}
+hr{
+	width: 70%;
+}
